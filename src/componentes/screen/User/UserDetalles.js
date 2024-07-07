@@ -4,9 +4,9 @@ import React from 'react'
 const UserDetalles = () => {
   return (
     <View>
-      <Text>Nombre: Seani</Text>
+      <Text>Nombre: César</Text>
       <Text>Info...</Text>
-      <Text>Tel: 9161367110</Text>
+      <Text>Tel: 9841824470</Text>
 
     </View>
   )
