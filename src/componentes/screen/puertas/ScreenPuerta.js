@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const MenuPrincipal = (props) => {
+const ScreenPuerta = () => {
   return (
     <View>
-      <Text>Hola dede el componenete menú</Text>
+      <Text>Screen Puertas</Text>
     </View>
   )
 }
 
-export default MenuPrincipal
+export default ScreenPuerta
 
 const styles = StyleSheet.create({})

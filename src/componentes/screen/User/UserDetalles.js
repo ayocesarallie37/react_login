@@ -1,14 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const MenuPrincipal = (props) => {
+const UserDetalles = () => {
   return (
     <View>
-      <Text>Hola dede el componenete menú</Text>
+      <Text>Nombre: Seani</Text>
+      <Text>Info...</Text>
+      <Text>Tel: 9161367110</Text>
+
     </View>
   )
 }
 
-export default MenuPrincipal
+export default UserDetalles
 
 const styles = StyleSheet.create({})

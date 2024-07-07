@@ -1,15 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import LoginPrincipalP1 from './src/componentes/screen/login/LoginPrincipalP1';
-import LoginP2 from './src/componentes/screen/login/LoginP2';
-import MenuPrincipal from './src/componentes/screen/Dash/MenuPrincipal'
-import Fromnuevouser from './src/componentes/screen/login/Fromnuevouser';
+import LoginP1 from './src/components/screen/Login/LoginP1'
+import Loginp2 from './src/components/screen/Login/Loginp2';
+import MenuPrincipal from './src/components/screen/Dash/MenuPrincipal';
+import Navegation from './src/components/Navegation';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
-      <LoginP2/>
+    <StatusBar style="auto" />
+   
+    <Loginp2/>
+
+
     </View>
   );
 }
@@ -17,5 +20,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+   textAlign:"center",
+    backgroundColor: "#CDCDCD",
+  
   },
 });
